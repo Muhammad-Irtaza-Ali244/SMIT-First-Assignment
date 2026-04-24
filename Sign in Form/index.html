@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign in Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <div class="maindiv">
+        <h1>Sign in Form</h1>
+    <form action="/submit">
+        <label for="username">Username:</label>
+        <input type="text" id="username" name="username" placeholder="Enter Your Name" required><br><br>
+
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" placeholder="Enter your password" required><br><br>
+        <fieldset class="contacts">
+            <legend>Contact Details</legend>
+            Email:  
+            <input type="email" name="email" id="email" placeholder="Enter your email" required><br><br>
+            Mobile:
+            <input type="number" name="phone" id="phone" placeholder="Enter your phone number">
+        </fieldset>
+        Gender:
+        <input type="radio" id="male" name="gender" value="male">
+        <label for="male">Male</label>
+        <input type="radio" id="female" name="gender" value="female">
+        <label for="female">Female</label><br><br>
+        <textarea name="description" id="description" placeholder="Description"></textarea><br><br>
+        <input type="submit" value="Sign In">
+
+    </form>
+    </div>
+</body>
+</html>
